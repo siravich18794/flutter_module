@@ -67,7 +67,7 @@
 
     ```bash
      startActivity(
-     FlutterActivity.createDefaultIntent(currentActivity)
+      FlutterActivity.createDefaultIntent(currentActivity)
      );
     ```
 

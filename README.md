@@ -87,4 +87,4 @@
    ![appDelegate](screenshots/AppDelegate_ScreenShot.png)
    ![viewController](screenshots/ViewController_ScreenShot.png)
 
-# ** ในการ build เป็น AAR และ IOS Framework จะใช้ flutter channel แตกต่างกัน โดย AAR ใช้ flutter channel master ส่วน IOS Framework ใช้ flutter channel stable
+## ** ในการ build เป็น AAR และ IOS Framework จะใช้ flutter channel แตกต่างกัน โดย AAR ใช้ flutter channel master ส่วน IOS Framework ใช้ flutter channel stable

@@ -86,3 +86,5 @@
 4. Setup Flutter Engine , FlutteViewController , และ Plugins ต่างๆในไฟล์ AppDelegate และ ViewController
    ![appDelegate](screenshots/AppDelegate_ScreenShot.png)
    ![viewController](screenshots/ViewController_ScreenShot.png)
+
+# ** ในการ build เป็น AAR และ IOS Framework จะใช้ flutter channel แตกต่างกัน โดย AAR ใช้ flutter channel master ส่วน IOS Framework ใช้ flutter channel stable

@@ -54,21 +54,21 @@
 4. เพิ่ม Flutter Activity ในไฟล์ AndroidManifest.xml เพื่อให้สามารถเปิด Flutter ภายใน Android App ได้
 
     ```bash
-        <activity
-            android:name="io.flutter.embedding.android.FlutterActivity"
-            android:theme="@style/LaunchTheme"
-            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-            android:hardwareAccelerated="true"
-            android:windowSoftInputMode="adjustResize"
-        />
+     <activity
+         android:name="io.flutter.embedding.android.FlutterActivity"
+         android:theme="@style/LaunchTheme"
+         android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+         android:hardwareAccelerated="true"
+         android:windowSoftInputMode="adjustResize"
+     />
     ```
 
 5. Run Flutter Activity
 
     ```bash
-        startActivity(
-        FlutterActivity.createDefaultIntent(currentActivity)
-        );
+     startActivity(
+     FlutterActivity.createDefaultIntent(currentActivity)
+     );
     ```
 
 ## Project Setup for IOS

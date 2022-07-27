@@ -74,7 +74,7 @@
 ## Project Setup for IOS
 
 1. ในฝั่ง IOS จะแบ่งได้ 3 วิธีคือ Embed with CocoaPods and the Flutter SDK , Embed frameworks in Xcode , Embed application and plugin frameworks in Xcode and Flutter framework with CocoaPods ในที่นี้จะพูดถึงวิธีที่ 2
-2. เมื่อเรา Setup ตัว Flutter module เสร็จเรียบร้อย เราสามารถทำการ Build IOS Framework ใน terminal ได้โดยตรงจากคำสั่ง 
+2. เมื่อเรา Setup ตัว Flutter module เสร็จเรียบร้อย เราสามารถทำการ Build IOS Framework ใน terminal เข้าไปในตัว host app ของเราได้โดยตรงจากคำสั่ง 
 
     ```bash
     flutter build ios-framework --output=some/path/MyApp/Flutter/
@@ -87,4 +87,4 @@
    ![appDelegate](screenshots/AppDelegate_ScreenShot.png)
    ![viewController](screenshots/ViewController_ScreenShot.png)
 
-## ** ในการ build เป็น AAR และ IOS Framework จะใช้ flutter channel แตกต่างกัน โดย AAR ใช้ flutter channel master ส่วน IOS Framework ใช้ flutter channel stable
+## ** ในการ build เป็น AAR และ IOS Framework จะใช้ flutter channel แตกต่างกัน โดย AAR ใช้ flutter channel master (firebase library สามารถ build ได้เฉพาะ channel master) ส่วน IOS Framework ใช้ flutter channel stable
